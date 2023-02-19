@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    /* overflow: hidden; */
+}
+
+.navigation{
+    position: relative;
+    top: -1rem;
+    width: 100%;
+}
+.navigation ul li img{
+    width: 1.5rem;
+}
+
+.navigation ul{
+    height: 3.5rem;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.navigation ul li{
+    list-style: none;
+}
+
+.navigation ul li .img-big1{
+    width: 2.5rem;
+}
+.navigation ul li .img-big2{
+    width: 2.1rem;
+}
+
+.hero-section{
+    overflow: hidden;
+    width: 100vw;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-card{
+    margin: 1rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(225, 225, 225, 0.041);
+    backdrop-filter: blur(0.5px);
+    width: 14rem;
+    /* overflow: hidden; */
+    z-index: 999;
+}
+.info-card .name{
+    font-size: 1.7rem;
+    background-color: rgba(0, 0, 0, 0.144);
+    text-align: center;
+    margin: 0 0 1rem;
+}
+.info-card .navigation{
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.034);
+}
+.info-card .hero-img {
+    width: 18.5rem;
+    position: relative;
+    left: -18%;
+    margin: 30% 0 0 0;
+}
+.name p{
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 4rem 0 0  0;
+    padding: 0 0.5rem;
+}
+
+.name p span{
+    border-bottom: 0.4rem solid #60cf79;
+}
+
+.personal-info{
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 4rem 0 0 0 ;
+    padding: 0 1rem;
+}
+
+.btn{
+    padding: 0.5rem;
+    color: #FFF;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #60cf79;
+    margin: 2rem 0 ;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.ring img{
+    position: absolute;
+    top: 11.5rem;
+    left: -14rem;
+    width: 25rem;
+}
+.circle img{
+    width: 8rem;
+    position: absolute;
+    top: 21rem;
+    left: 15.5rem;
+   
+}
+
