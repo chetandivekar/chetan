@@ -10,6 +10,9 @@ body{
     /* overflow: hidden; */
 }
 
+/* mobile view */
+/* ok for testing */
+
 .navigation{
     position: relative;
     top: -1rem;
@@ -52,7 +55,7 @@ body{
     background-color: rgba(225, 225, 225, 0.041);
     backdrop-filter: blur(0.5px);
     width: 14rem;
-    /* overflow: hidden; */
+    overflow: hidden;
     z-index: 999;
 }
 .info-card .name{
