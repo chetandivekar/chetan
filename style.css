@@ -114,10 +114,11 @@ body{
     width: 25rem;
 }
 .circle img{
-    width: 8rem;
+    width: 5rem;
     position: absolute;
     top: 21rem;
-    left: 15.5rem;
+    right: 0;
+    
    
 }
 
