@@ -10,6 +10,8 @@ body{
     /* overflow: hidden; */
 }
 
+/* mobile view */
+
 .navigation{
     position: relative;
     top: -1rem;
