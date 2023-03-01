@@ -95,7 +95,7 @@ body{
 }
 
 .btn{
-    padding: 0.5rem;
+    padding: 0 0.2rem 0.7rem 0.2rem;
     color: #FFF;
     background-color: transparent;
     border: none;
@@ -121,4 +121,102 @@ body{
     
    
 }
+
+.line__outside{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #181818;
+}
+
+.line{
+    width: 90%;
+    height: 0.1rem;
+    background-color: #FFF;
+    margin: 2rem 0 2.5rem 0rem;
+}
+
+
+.skills{
+    width: 100vw;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 2.3rem 0;
+}
+
+.skill .skill__name{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem 0;
+}
+
+.skill .skill__outer{
+    width: 13rem;
+    height: 0.7rem;
+    background-color: #FFF;
+    border-radius: 0.15rem;
+}
+
+.skill  .skill_inner{
+    height: 100%;
+    border-radius: 0.15rem;
+    background-color: #60cf79;
+}
+
+.html{
+    width: 80%;
+}
+
+.css{
+    width: 70%;
+}
+
+.javascript{
+    width: 50%;
+}
+
+.ui_ux{
+    width: 70%;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+}
+.percentage{
+    margin: 0 0 0 1rem;
+}
+
+.heading{
+    display: flex;
+    width: 100vw;
+    background-color: #181818;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    margin-top: -7rem;
+}
+.project{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+
+
+ .image{
+    position: relative;
+    width: 27rem;
+    right: 160px;
+    top: -125px;
+    opacity: 0.4;
+}
+
 
