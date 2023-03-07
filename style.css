@@ -86,7 +86,6 @@ body{
     font-size: 2rem;
     font-weight: 700;
     margin: 4rem 0 0  0;
-    padding: 0 0.5rem;
 }
 
 .name p span{
@@ -97,7 +96,6 @@ body{
     font-size: 0.9rem;
     text-align: center;
     margin: 4rem 0 0 0 ;
-    padding: 0 1rem;
 }
 
 button:hover{
